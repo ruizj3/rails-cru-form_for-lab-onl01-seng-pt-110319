@@ -1,4 +1,4 @@
-class Song < ApplicationRecord
+class Song < ApplicationRecord::Base
   belongs_to :artist
-  belongs_to :genre 
+  belongs_to :genre
 end
